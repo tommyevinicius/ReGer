@@ -1,17 +1,13 @@
 {
   "require-dev": {
-    "phpunit/phpunit" : "^6.5"
+    "phpunit/phpunit": "^6.5"
   },
   "autoload": {
-    "psr-4" : {
-      "TVTS\\" : "src/"
+    "psr-4": {
+      "TVTS\\": "src/"
     }
   },
-  "config" : {
-    "bin-dir" : "bin/"
-  },
-  "require": {
-    "zendframework/zendframework": "^3.0",
-    "zendframework/zend-mvc": "^3.1"
+  "config": {
+    "bin-dir": "bin/"
   }
 }

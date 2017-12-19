@@ -49,7 +49,7 @@ class View
         ob_start();
 
         if (!file_exists($view = VIEWS_PATH . $this->view . '.phtml'))
-            die('View não foi encontrada!');
+            die($view . ' não foi encontrada!');
 
         require $view;
 
